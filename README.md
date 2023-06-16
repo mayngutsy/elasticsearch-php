@@ -95,7 +95,7 @@ var_dump($response->asBool());   // true if HTTP response code between 200 and 3
 Elasticsearch 8.0 offers 
 [security by default](https://www.elastic.co/blog/introducing-simplified-elastic-stack-security),
 that means it uses [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
-for protect the communication between client and server.
+to protect the communication between client and server.
 
 In order to configure `elasticsearch-php` for connecting to Elasticsearch 8.0 we
 need to have the certificate authority file (CA).
